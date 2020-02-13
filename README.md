@@ -1,3 +1,3 @@
 # Linux
-[Установка ARCH linux](ARCH_setup.md)
-
+- [Установка ARCH linux](ARCH_setup.md)
+- [Настройка ssh ключей на linux с работы с github](github-ssh-key.md)
