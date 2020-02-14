@@ -34,3 +34,30 @@ tmux attach -t second_session
 tmux kill-session -t basic
 tmux kill-session -t second_session
 ```
+
+| Command      |  Description                                                |
+|--------------|-------------------------------------------------------------|
+| PREFIX d     | выйти из сессии                                             |
+| PREFIX :     | Enters Command mode                                         |
+| PREFIX c     | новее окно                                                  |
+| PREFIX 0…9   | выбор окна                                                  |
+| PREFIX w     | отображение окон для выбора, в текущей сессии               |
+| PREFIX ,     | переименование окна                                         |
+| PREFIX &     | Closes the current window after prompting for confirmation. |
+| PREFIX %     | разделение окна вертикально                                 |
+| PREFIX "     | разеделение горизонтально                                   |
+| PREFIX o     | перемещение между окнами по порядку                         |
+| PREFIX q     | нумерация окон                                              |
+| PREFIX x     | закрытие окна                                               |
+| PREFIX SPACE | меняет расположение окон                                    |
+
+
+
+
+## настройка `~/.tmux.conf`
+
+```sh
+set -g prefix C-a
+unbind C-b
+
+```
