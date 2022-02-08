@@ -4,3 +4,4 @@
 - [Конфигурирование tmux](tmux_setting.md)
 - [Шифрование файлов](crypto.md)
 - [Qemu](qemu.md)
+- [Ffmpeg](ffmpeg.md)
