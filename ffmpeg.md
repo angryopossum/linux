@@ -13,3 +13,7 @@ ffmpeg -i "concat:vid1.ts|vid2.ts" -vcodec copy -acodec copy out.mp4
 ### запись экрана
 
 `ffmpeg -f x11grab -y -r 30 -s 1920x1080 -i :0.0 -vcodec huffyuv screen.avi`
+
+### извлечь аудио
+
+`ffmpeg -i input-video.avi -vn -acodec copy output-audio.aac`
