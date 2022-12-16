@@ -5,4 +5,4 @@
 - [Шифрование файлов](crypto.md)
 - [Qemu](qemu.md)
 - [Ffmpeg](ffmpeg.md)
-- [POstgres](postgres.md)
+- [Postgres](postgres.md)
