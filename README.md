@@ -9,3 +9,4 @@
 - [Nginx](nginx_ssl.md)
 - [Rsync](rsync.md)
 - [Images](images.md)
+- [Routing](routing.md)
