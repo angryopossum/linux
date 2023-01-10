@@ -17,9 +17,9 @@
 
 
 ## Route config GW1
-
+```
 sysctl net.ipv4.ip_forward=1
 iptables -t nat -s 172.16.1.0/24 -A POSTROUTING -j MASQUERADE
 ip route add 10.0.1.0/24 via 192.168.0.1
-
+```
 
