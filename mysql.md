@@ -8,5 +8,5 @@ mysqldump db > db.sql
 
 ```
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
-GRANT PRIVILEGE ON db.* TO 'user'@'localhost';
+GRANT ALL PRIVILEGES ON db.* TO 'user'@'localhost';
 ```
