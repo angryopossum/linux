@@ -1,5 +1,15 @@
 # POSTGRES
 
+## Create user
+
+```
+CREATE USER dbuser CREATEDB LOGIN ENCRYPTED PASSWORD 'q1w2e3r4';
+```
+проверка ролей
+```
+postgres=#\du
+```
+
 ## Backup
 
 
