@@ -1,0 +1,15 @@
+version: '2.2'
+services:
+ wildfly_master:
+  image: quay.io/wildfly/wildfly
+  environment:
+      - WILDFLY_PASS="admin"
+
+  volumes:
+      - config01:/opt/jboss/wildfly/standalone/configuration
+  ports:
+    - "8080:8080"
+    - "9990:9990"
+volumes:
+  config01:
+    driver: local

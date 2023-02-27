@@ -1,3 +1,6 @@
 # Docker
 
 
+```
+docker exec -it <container-name-or-id> bash
+```
