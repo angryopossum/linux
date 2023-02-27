@@ -1,7 +1,7 @@
 # Docker
 
 ## Docker compose files
- - [Wildfy](docker/wildfly/docker-compose.yml)
+ - [Wildfy](../docker/wildfly/docker-compose.yml)
 
 
 ## Docker commands
